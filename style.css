@@ -73,3 +73,25 @@ button {
     padding: 1.5rem 2rem;
     background-color: rgb(0, 0, 29);
 }
+
+@media screen and (max-width:480px){
+    body {
+        display: block;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    .top {
+        float: right;
+    }
+
+    form {
+        width: 100vw;
+    }
+
+    .rightbar {
+        display: none;
+    }
+}
